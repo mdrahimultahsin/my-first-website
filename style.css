@@ -1,0 +1,41 @@
+div {
+  width: 100%;
+  height: 100vh;
+  background: url(img/bg.jpg) center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.div_img {
+  background: rgb(255, 99, 71);
+  color: white;
+  background-repeat: no-repeat;
+  width: 48%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  height: auto;
+  text-indent: 50px; /*for first spacing*/
+}
+.div_img h2 {
+  font-variant: small-caps; /*upper lower case text*/
+}
+a { 
+  text-decoration: line-through;
+  text-decoration: none;
+  display: block;
+  display: inline-block;
+  color: white;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+a:active{
+    color: aqua;
+    font-weight: bold;
+}
+a:focus{
+    color: violet;
+}
